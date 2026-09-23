@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriSens-AI (KrishiDrishti) — Bharat AI-SoC Challenge Prototype</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #090d16; color: #f1f5f9; }
+    .glass-card { background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(51, 65, 85, 0.8); }
+    .emerald-glow { box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.3); }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="border-b border-slate-800 bg-slate-900/90 sticky top-0 z-50 px-6 py-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3">
+      <div class="flex items-center gap-3">
+        <div class="bg-gradient-to-tr from-emerald-600 to-teal-500 p-3 rounded-xl shadow-lg shadow-emerald-950">
+          <span class="text-2xl">🌱</span>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="text-xl font-extrabold text-white tracking-wide">AgriSens-AI (KrishiDrishti)</h1>
+            <span class="text-[10px] uppercase font-bold tracking-widest bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2.5 py-0.5 rounded-full">
+              Phase 1 Prototype
+            </span>
+          </div>
+          <p class="text-xs text-slate-400">Bharat AI-SoC Challenge 2026–27 | 100% Offline On-Device Assistant</p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <div class="flex items-center gap-2 bg-emerald-950/80 border border-emerald-700/80 text-emerald-300 text-xs font-semibold px-3 py-1.5 rounded-full">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span>100% Offline Edge Ready</span>
+        </div>
+        <a href="https://github.com/2303A52440/AgriSens-AI-KrishiDrishti-.git" target="_blank" class="bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 px-3.5 py-2 rounded-lg border border-slate-700 font-semibold transition-colors flex items-center gap-1.5">
+          <span>GitHub Repo</span> ↗
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-7xl mx-auto w-full px-6 py-8">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+      <div class="lg:col-span-7 space-y-4">
+        <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold px-3 py-1 rounded-full">
+          ⚡ Edge Hardware Readiness: RISC-V NPU / ARM Ethos / Jetson
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight leading-tight">
+          Empowering Farmers with <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-300">On-Device AI Diagnostics</span>
+        </h2>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          AgriSens-AI analyzes crop foliage photos directly on low-power System-on-Chip (SoC) hardware without internet connectivity. It classifies crop diseases, quantifies lesion severity surface, and delivers native voice remedies in 9 Indian languages.
+        </p>
+
+        <!-- Metric Badges -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+          <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl text-center">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Inference Speed</span>
+            <span class="text-lg font-extrabold text-emerald-400">13.6 ms</span>
+          </div>
+          <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl text-center">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Model Storage</span>
+            <span class="text-lg font-extrabold text-cyan-400">4.8 MB</span>
+          </div>
+          <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl text-center">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Languages</span>
+            <span class="text-lg font-extrabold text-amber-400">9 Local</span>
+          </div>
+          <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-xl text-center">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Offline Mode</span>
+            <span class="text-lg font-extrabold text-indigo-400">100% Zero Net</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prototype Interactive Card Preview -->
+      <div class="lg:col-span-5">
+        <div class="glass-card rounded-2xl p-6 emerald-glow space-y-4">
+          <div class="flex justify-between items-center border-b border-slate-800 pb-3">
+            <span class="text-xs font-bold text-slate-300 uppercase">Live Prototype Simulation</span>
+            <span class="text-xs font-bold text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded">Rice Blast Detected</span>
+          </div>
+
+          <!-- Sample Image Box -->
+          <div class="w-full h-40 bg-slate-950 rounded-xl border border-slate-800 flex items-center justify-center relative overflow-hidden">
+            <div class="text-center p-4">
+              <span class="text-4xl mb-1 block">🌾</span>
+              <span class="text-xs font-bold text-slate-200">Pyricularia oryzae (Rice Blast)</span>
+              <span class="text-[10px] text-slate-400 block">Simulated Edge Scanner Output</span>
+            </div>
+          </div>
+
+          <!-- Severity Gauge -->
+          <div>
+            <div class="flex justify-between text-xs font-bold mb-1">
+              <span class="text-slate-300">Lesion Surface Severity:</span>
+              <span class="text-amber-400">42% (Moderate)</span>
+            </div>
+            <div class="w-full bg-slate-800 h-2.5 rounded-full overflow-hidden">
+              <div class="bg-amber-500 h-full w-[42%] rounded-full"></div>
+            </div>
+          </div>
+
+          <!-- Audio Readout Simulation -->
+          <button onclick="alert('🔊 Audio Advisory (Hindi/Telugu/Tamil): \nधान की झुलसा बीमारी (Rice Blast) पाई गई है। 10 ग्राम स्यूडोमोनास प्रति लीटर पानी में मिलाकर छिड़काव करें।')" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs py-2.5 rounded-xl transition-all shadow-lg flex items-center justify-center gap-2">
+            <span>🔊 Test Multilingual Audio Advisory</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prototype Features Grid -->
+  <section class="max-w-7xl mx-auto w-full px-6 py-8 border-t border-slate-800/80">
+    <h3 class="text-xs uppercase font-extrabold tracking-widest text-emerald-400 mb-6">Phase 1 Prototype System Architecture</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="glass-card p-5 rounded-xl space-y-2">
+        <span class="text-3xl">📷</span>
+        <h4 class="text-base font-bold text-white">1. Image Acquisition & Edge Tensor Prep</h4>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          Captures foliage via camera or file upload, normalizes RGB tensors to 224x224, and executes ONNX INT8 quantized model inference locally in under 15ms.
+        </p>
+      </div>
+
+      <div class="glass-card p-5 rounded-xl space-y-2">
+        <span class="text-3xl">🧮</span>
+        <h4 class="text-base font-bold text-white">2. Severity Surface Segmentation</h4>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          Performs HSV leaf lesion segmentation to calculate affected leaf surface area (0-100%), aiding precise dosage estimation for smallholder acreage.
+        </p>
+      </div>
+
+      <div class="glass-card p-5 rounded-xl space-y-2">
+        <span class="text-3xl">🗣️</span>
+        <h4 class="text-base font-bold text-white">3. Multilingual Local Voice Advisory</h4>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          Converts organic, chemical, and cultural remedies into native speech across 9 Indian languages (Hindi, Telugu, Tamil, Kannada, Marathi, etc.) using offline TTS.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-auto border-t border-slate-800 bg-slate-900/60 py-6 px-6 text-center text-xs text-slate-400">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div>Bharat AI-SoC Challenge 2026–27 | Open Qualifying Phase 1 Entry</div>
+      <div>Designed & Engineered for On-Device Edge SoC Deployment</div>
+    </div>
+  </footer>
+
+</body>
+</html>
