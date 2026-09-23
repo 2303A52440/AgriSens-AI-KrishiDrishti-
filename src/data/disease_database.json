@@ -1,0 +1,219 @@
+[
+  {
+    "id": "rice_blast",
+    "crop": "Rice (ধান / அரிசி)",
+    "disease_name": "Rice Blast (Pyricularia oryzae)",
+    "scientific_name": "Magnaporthe oryzae",
+    "category": "Fungal Disease",
+    "symptoms": [
+      "Spindle-shaped or diamond-shaped lesions on leaves with gray/white centers",
+      "Dark brown reddish borders on leaf blades",
+      "Node necrosis and neck rot preventing grain filling",
+      "Stunted crop growth and partial panicle drying"
+    ],
+    "severity_level": "Moderate (35-45%)",
+    "organic_treatment": "Spray Pseudomonas fluorescens @ 10g/liter of water or Neem Seed Kernel Extract (NSKE 5%) every 7 days. Incorporate trichoderma viride in compost.",
+    "chemical_treatment": "Tricyclazole 75% WP @ 0.6g/L or Isoprothiolane 40% EC @ 1.5ml/L of water at boot leaf stage.",
+    "chemical_dosage_per_acre": "120g Tricyclazole in 200L water per acre",
+    "preventive_measures": [
+      "Avoid excess nitrogenous fertilizers (split application recommended)",
+      "Maintain 2-5 cm standing water during tillering",
+      "Use resistant varieties like Swarna-Sub1 or IR-64",
+      "Destroy infected crop stubbles after harvest"
+    ],
+    "irrigation_advisory": "Avoid continuous deep flooding; practice alternate wetting and drying (AWD) to reduce humidity around the canopy.",
+    "fertilizer_guidance": "Reduce Urea by 25%. Apply Potash (MOP) @ 20kg/acre to strengthen cell walls against fungal penetration.",
+    "regional_guidance": {
+      "North": "High risk in Punjab & Haryana during high humidity (Aug-Sep). Ensure early evening field drainage.",
+      "South": "Common in Godavari delta and Cauvery belt. Monitor closely during Samba season.",
+      "East": "Prevalent in West Bengal & Odisha during wet season (Aman rice). Use certified disease-free seeds.",
+      "West": "High incidence in Konkan belt. Apply prophylactic biocontrol agents at nursery stage."
+    }
+  },
+  {
+    "id": "tomato_late_blight",
+    "crop": "Tomato (टमाटर / தக்காளி)",
+    "disease_name": "Tomato Late Blight",
+    "scientific_name": "Phytophthora infestans",
+    "category": "Oomycete / Fungal",
+    "symptoms": [
+      "Water-soaked dark green/black lesions starting at leaf tips and margins",
+      "White cottony fungal growth on lower leaf surfaces under high humidity",
+      "Browning and rapid rotting of green and mature fruits",
+      "Foul odor emitting from heavily infected foliage"
+    ],
+    "severity_level": "Severe (60-75%)",
+    "organic_treatment": "Bordeaux mixture (1%) or Copper Hydroxide @ 2g/L. Spray diluted cow butter-milk (1:10 ratio) containing active lactic microbes.",
+    "chemical_treatment": "Mancozeb 75% WP @ 2.5g/L or Cymoxanil 8% + Mancozeb 64% WP @ 2g/L water.",
+    "chemical_dosage_per_acre": "500g Mancozeb in 200L water per acre",
+    "preventive_measures": [
+      "Ensure proper plant spacing (60cm x 45cm) for air circulation",
+      "Staking of plants to keep leaves off damp soil",
+      "Remove and burn lower infected leaves immediately",
+      "Avoid overhead sprinkler irrigation"
+    ],
+    "irrigation_advisory": "Use drip irrigation strictly in early morning hours so foliage dries quickly before nightfall.",
+    "fertilizer_guidance": "Apply Calcium Nitrate @ 5kg/acre via fertigation to strengthen cell walls and prevent fruit decay.",
+    "regional_guidance": {
+      "North": "Prevalent during foggy winter months (Nov-Jan) in UP, Bihar, and Himachal.",
+      "South": "High occurrence in Kolar (Karnataka) and Madanapalle (AP) during monsoon spells.",
+      "East": "Common in Ranchi plateau and Assam during persistent rainfall.",
+      "West": "Monitor closely in Nashik and Pune belts during October heat with high night humidity."
+    }
+  },
+  {
+    "id": "cotton_bacterial_blight",
+    "crop": "Cotton (कपास / పత్తి)",
+    "disease_name": "Bacterial Blight / Angular Leaf Spot",
+    "scientific_name": "Xanthomonas citri pv. malvacearum",
+    "category": "Bacterial Disease",
+    "symptoms": [
+      "Water-soaked angular spots bounded by leaf veins",
+      "Black vein lesions ('Black arm') leading to stem breakage",
+      "Dark sunken water-soaked spots on bolls ('Boll rot')",
+      "Premature leaf drop and boll shedding"
+    ],
+    "severity_level": "Moderate (30-40%)",
+    "organic_treatment": "Seed treatment with Trichoderma viride @ 10g/kg seed. Foliar spray of Garlic + Chili extract @ 5%.",
+    "chemical_treatment": "Streptocycline 90% + Tetracycline 10% @ 6g + Copper Oxychloride 50% WP @ 500g in 200L water per acre.",
+    "chemical_dosage_per_acre": "6g Streptocycline + 500g Copper Oxychloride per acre",
+    "preventive_measures": [
+      "Delint seeds with Concentrated Sulphuric Acid before sowing",
+      "Use resistant Bt-Cotton hybrid varieties",
+      "Destroy previous crop residue and crop field sanitation",
+      "Avoid working in fields when foliage is wet"
+    ],
+    "irrigation_advisory": "Ensure good field drainage; avoid waterlogging around roots for more than 24 hours.",
+    "fertilizer_guidance": "Balanced NPK (120:60:60 kg/ha). Avoid excessive Nitrogen which promotes succulent bacterial host tissue.",
+    "regional_guidance": {
+      "North": "Monitor in Malwa region of Punjab & Rajasthan during humid July-August.",
+      "South": "Common in Telangana & Rayalaseema black soils during early monsoon.",
+      "East": "Found in Odisha plateau cotton zones during erratic rainfall.",
+      "West": "Widespread in Vidarbha and Saurashtra; spray immediately after heavy rain breaks."
+    }
+  },
+  {
+    "id": "potato_early_blight",
+    "crop": "Potato (आलू / బంగాళాదుంప)",
+    "disease_name": "Potato Early Blight",
+    "scientific_name": "Alternaria solani",
+    "category": "Fungal Disease",
+    "symptoms": [
+      "Concentric ring brown spots ('Target board' pattern) on older leaves",
+      "Yellow halo surrounding brown necrotic leaf spots",
+      "Dry brown sunken spots on tuber skin",
+      "Early leaf senescense and defoliation"
+    ],
+    "severity_level": "Mild (15-25%)",
+    "organic_treatment": "Foliar spray of Neem oil (10,000 ppm) @ 3ml/L with liquid soap binder or Trichoderma harzianum soil drench.",
+    "chemical_treatment": "Chlorothalonil 75% WP @ 2g/L or Propineb 70% WP @ 2.0g/L water.",
+    "chemical_dosage_per_acre": "400g Chlorothalonil in 200L water per acre",
+    "preventive_measures": [
+      "Maintain crop rotation with non-solanaceous crops (Maize/Legumes) for 2 years",
+      "Soil solarization before planting",
+      "Harvest tubers only after vine killing when skin is fully mature",
+      "Store tubers at 4°C with proper ventilation"
+    ],
+    "irrigation_advisory": "Irrigate in morning. Avoid overhead sprinkler irrigation late in the afternoon.",
+    "fertilizer_guidance": "Ensure adequate Potassium and Zinc application; deficient plants are highly susceptible to Alternaria.",
+    "regional_guidance": {
+      "North": "Widespread in Indo-Gangetic plains (UP, West Bengal, Punjab) during Jan-Feb.",
+      "South": "Found in Nilgiris and Hassan potato tracts.",
+      "East": "Common in Hooghly district of West Bengal.",
+      "West": "Occurs in Deesa (Gujarat) and Satara (Maharashtra)."
+    }
+  },
+  {
+    "id": "corn_fall_armyworm",
+    "crop": "Corn / Maize (मक्का / జొన్న)",
+    "disease_name": "Fall Armyworm Pest Infestation",
+    "scientific_name": "Spodoptera frugiperda",
+    "category": "Pest Infestation",
+    "symptoms": [
+      "Shot-hole leaf damage and ragged pinholes on young whorl leaves",
+      "Large quantities of saw-dust like excreta (frass) inside central leaf whorls",
+      "Defoliation of whorl leaves leaving only leaf midribs",
+      "Caterpillars with inverted 'Y' mark on head and 4 dark spots on tail segment"
+    ],
+    "severity_level": "Critical (>75%)",
+    "organic_treatment": "Apply Metarhizium anisopliae or Bacillus thuringiensis (Bt) @ 2g/L into leaf whorls. Place sand/sawdust mixed with neem powder into central whorls.",
+    "chemical_treatment": "Emamectin Benzoate 5% SG @ 0.4g/L or Chlorantraniliprole 18.5% SC @ 0.4ml/L targeted inside leaf whorls.",
+    "chemical_dosage_per_acre": "80g Emamectin Benzoate in 200L water per acre",
+    "preventive_measures": [
+      "Erect Pheromone traps @ 5/acre for moth monitoring",
+      "Intercropping with Cowpea, Desmodium or Push-Pull push legumes",
+      "Early uniform sowing across entire village cluster",
+      "Handpick and destroy egg masses covered with hair scale"
+    ],
+    "irrigation_advisory": "Heavy whorl irrigation can drown early instar larvae inside central leaf funnel.",
+    "fertilizer_guidance": "Basal NPK dose (120:60:40 kg/ha). Avoid excess split nitrogen during peak infestation.",
+    "regional_guidance": {
+      "North": "Widespread across Bihar, UP, and Rajasthan maize fields.",
+      "South": "High density in Davangere (Karnataka) and Guntur (AP).",
+      "East": "Prevalent in Odisha tribal maize belts.",
+      "West": "Severe in Chhindwara (MP) and Dhule (Maharashtra)."
+    }
+  },
+  {
+    "id": "wheat_stripe_rust",
+    "crop": "Wheat (गेहूं / గోధుమ)",
+    "disease_name": "Wheat Yellow / Stripe Rust",
+    "scientific_name": "Puccinia striiformis f. sp. tritici",
+    "category": "Fungal Disease",
+    "symptoms": [
+      "Bright yellow pustules (uredinia) arranged in long linear stripes along leaf veins",
+      "Yellow powder rubbing off easily on fingers when touching infected leaves",
+      "Leaves turning brown, dry, and papery prematurely",
+      "Significant reduction in grain weight and shriveled seeds"
+    ],
+    "severity_level": "Severe (55-70%)",
+    "organic_treatment": "Spray fermented garlic-onion extract (5%) or Bio-agent Trichoderma viride @ 5g/L at first appearance of yellow stripes.",
+    "chemical_treatment": "Propiconazole 25% EC @ 1ml/L or Tebuconazole 250 EC @ 1ml/L water immediately upon spot detection.",
+    "chemical_dosage_per_acre": "200ml Propiconazole 25 EC in 200L water per acre",
+    "preventive_measures": [
+      "Grow rust-resistant wheat varieties like DBW 187, HD 3226, or PBW 725",
+      "Avoid late sowing of wheat (sow before 15th November)",
+      "Destroy wild canary grass (Phalaris minor) and weed hosts around field borders",
+      "Regular morning scouting during cold humid spells"
+    ],
+    "irrigation_advisory": "Avoid over-irrigation during foggy weather; maintain optimum soil moisture without canopy wetness.",
+    "fertilizer_guidance": "Split application of Nitrogen. Do not exceed recommended dose as excess N soft tissue favors rust spores.",
+    "regional_guidance": {
+      "North": "Critical threat in Punjab, Haryana, Himachal foothills, and Western UP.",
+      "South": "Rare in deep south; confined to high altitude Nilgiri hills.",
+      "East": "Occurs sporadically in Tarai region of Bihar.",
+      "West": "Monitored in Northern Madhya Pradesh."
+    }
+  },
+  {
+    "id": "healthy_crop",
+    "crop": "All Crops (सभी फसलें)",
+    "disease_name": "Healthy Crop Foliage",
+    "scientific_name": "No Pathogen Detected",
+    "category": "Healthy Status",
+    "symptoms": [
+      "Vibrant green leaf coloration with uniform texture",
+      "No visible spots, lesions, chlorosis, or necrotic patches",
+      "Strong erect stem and healthy root system",
+      "Normal cell turgidity and growth vigor"
+    ],
+    "severity_level": "Healthy (0%)",
+    "organic_treatment": "Maintain current good agricultural practices (GAP). Apply Jeevamrut or Panchagavya @ 3% as routine booster every 15 days.",
+    "chemical_treatment": "No chemical treatment required. Protect natural beneficial predatory insects (ladybird beetles, green lacewings).",
+    "chemical_dosage_per_acre": "N/A - 0 Dosage Needed",
+    "preventive_measures": [
+      "Continue regular crop scouting every 3-5 days",
+      "Maintain balanced crop nutrition based on Soil Health Card",
+      "Practice crop rotation with legumes to build soil nitrogen",
+      "Keep field borders clean of weeds"
+    ],
+    "irrigation_advisory": "Irrigate based on soil moisture tensiometer reading (25-30% available soil moisture).",
+    "fertilizer_guidance": "Follow customized Soil Health Card recommendations for N-P-K-Micronutrients.",
+    "regional_guidance": {
+      "North": "Optimal seasonal growth.",
+      "South": "Optimal seasonal growth.",
+      "East": "Optimal seasonal growth.",
+      "West": "Optimal seasonal growth."
+    }
+  }
+]
